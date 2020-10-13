@@ -27,7 +27,7 @@ steps:
 - script: |
     npm run build
     
-  displayName: 'Lint'
+  displayName: 'Build'
 
 - task: PublishBuildArtifacts@1
   inputs:
